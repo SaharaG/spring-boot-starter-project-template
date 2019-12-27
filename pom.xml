@@ -22,21 +22,21 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.sahara</groupId>
-    <artifactId>multi-storage-spring-boot-project</artifactId>
+    <artifactId>template-spring-boot-project</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
 
-    <name>Multiple Storage Spring Boot Project</name>
-    <description>Multiple Storage Spring Boot Project</description>
-    <url>https://github.com/saharag/multi-storage-spring-boot-project</url>
+    <name>Spring Boot Project</name>
+    <description>Spring Boot Project</description>
+    <url>https://github.com/saharag/spring-boot-starter-project-template</url>
     <inceptionYear>2019</inceptionYear>
 
     <modules>
-        <module>multi-storage-spring-boot-parent</module>
-        <module>multi-storage-spring-boot-autoconfigure</module>
-        <module>multi-storage-spring-boot-starter</module>
-        <module>multi-storage-spring-boot-actuator</module>
-        <module>multi-storage-spring-boot-samples</module>
+        <module>template-spring-boot-parent</module>
+        <module>template-spring-boot-autoconfigure</module>
+        <module>template-spring-boot-starter</module>
+        <module>template-spring-boot-actuator</module>
+        <module>template-spring-boot-samples</module>
     </modules>
 
     <properties>
@@ -49,15 +49,15 @@
     </organization>
 
     <scm>
-        <url>https://github.com/saharag/multi-storage-spring-boot-project</url>
-        <connection>scm:git:git:////github.com/saharag/multi-storage-spring-boot-project.git</connection>
-        <developerConnection>scm:git:ssh://git@//github.com/saharag/multi-storage-spring-boot-project.git
+        <url>https://github.com/saharag/spring-boot-starter-project-template</url>
+        <connection>scm:git:git:////github.com/saharag/spring-boot-starter-project-template.git</connection>
+        <developerConnection>scm:git:ssh://git@//github.com/saharag/spring-boot-starter-project-template.git
         </developerConnection>
     </scm>
 
     <issueManagement>
         <system>Github</system>
-        <url>https://github.com/saharag/multi-storage-spring-boot-project/issues</url>
+        <url>https://github.com/saharag/spring-boot-starter-project-template/issues</url>
     </issueManagement>
 
     <developers>

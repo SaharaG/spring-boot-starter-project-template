@@ -20,30 +20,23 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>multi-storage-spring-boot-parent</artifactId>
+        <artifactId>template-spring-boot-parent</artifactId>
         <groupId>com.github.sahara</groupId>
         <version>1.0.0-SNAPSHOT</version>
-        <relativePath>../multi-storage-spring-boot-parent/pom.xml</relativePath>
+        <relativePath>../template-spring-boot-parent/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>multi-storage-spring-boot-starter</artifactId>
+    <artifactId>template-spring-boot-autoconfigure</artifactId>
 
-    <name>Multiple Storage Spring Boot Starter</name>
-    <description>Multiple Storage Spring Boot Starter</description>
+    <name>Template Spring Boot Autoconfigure</name>
+    <description>Template Spring Boot Autoconfigure</description>
 
     <dependencies>
-        <!-- Spring Boot dependencies -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-            <optional>true</optional>
-        </dependency>
-
-        <dependency>
-            <groupId>com.github.sahara</groupId>
-            <artifactId>multi-storage-spring-boot-autoconfigure</artifactId>
-            <version>${project.version}</version>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 </project>

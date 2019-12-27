@@ -20,15 +20,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>multi-storage-spring-boot-parent</artifactId>
+        <artifactId>template-spring-boot-samples</artifactId>
         <groupId>com.github.sahara</groupId>
         <version>1.0.0-SNAPSHOT</version>
-        <relativePath>../multi-storage-spring-boot-parent/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>multi-storage-spring-boot-actuator</artifactId>
+    <artifactId>template-spring-boot-starter-samples</artifactId>
 
-    <name>Multiple Storage Spring Boot Actuator</name>
-    <description>Multiple Storage Spring Boot Actuator</description>
+    <name>Template Spring Boot Starter Samples</name>
+    <description>Template Spring Boot Starter Samples</description>
 </project>

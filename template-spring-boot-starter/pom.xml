@@ -20,14 +20,30 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>multi-storage-spring-boot-samples</artifactId>
+        <artifactId>template-spring-boot-parent</artifactId>
         <groupId>com.github.sahara</groupId>
         <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../template-spring-boot-parent/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>upyun-storage-samples</artifactId>
+    <artifactId>template-spring-boot-starter</artifactId>
 
-    <name>UpYun USS Storage Spring Boot Samples</name>
-    <description>UpYun USS Storage Spring Boot Samples</description>
+    <name>Template Spring Boot Starter</name>
+    <description>Template Spring Boot Starter</description>
+
+    <dependencies>
+        <!-- Spring Boot dependencies -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.sahara</groupId>
+            <artifactId>template-spring-boot-autoconfigure</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 </project>

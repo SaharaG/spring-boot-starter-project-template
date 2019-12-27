@@ -20,16 +20,16 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>multi-storage-spring-boot-project</artifactId>
+        <artifactId>template-spring-boot-project</artifactId>
         <groupId>com.github.sahara</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>multi-storage-spring-boot-parent</artifactId>
+    <artifactId>template-spring-boot-parent</artifactId>
     <packaging>pom</packaging>
-    <name>Multiple Storage Spring Boot Parent</name>
-    <description>Multiple Storage Spring Boot Parent</description>
+    <name>Template Spring Boot Parent</name>
+    <description>Template Spring Boot Parent</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -38,11 +38,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>2.1.1.RELEASE</spring-boot.version>
-        <qiniu.version>[7.2.0, 7.2.99]</qiniu.version>
-        <aliyun.version>3.8.0</aliyun.version>
-        <qcloud.version>5.6.9</qcloud.version>
-        <huawei.version>3.19.7.3</huawei.version>
-        <upyun.version>4.1.4</upyun.version>
 
         <!-- Build args -->
         <argline>-server -Xms256m -Xmx512m -XX:PermSize=64m -XX:MaxPermSize=128m -Dfile.encoding=UTF-8
@@ -66,36 +61,6 @@
                 <version>${spring-boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
-            </dependency>
-            <!-- QiNiu(KODO) -->
-            <dependency>
-                <groupId>com.qiniu</groupId>
-                <artifactId>qiniu-java-sdk</artifactId>
-                <version>${qiniu.version}</version>
-            </dependency>
-            <!-- Aliyun(OSS) -->
-            <dependency>
-                <groupId>com.aliyun.oss</groupId>
-                <artifactId>aliyun-sdk-oss</artifactId>
-                <version>${aliyun.version}</version>
-            </dependency>
-            <!-- QCloud(COS) -->
-            <dependency>
-                <groupId>com.qcloud</groupId>
-                <artifactId>cos_api</artifactId>
-                <version>${qcloud.version}</version>
-            </dependency>
-            <!-- HuaweiCloud(OBS) -->
-            <dependency>
-                <groupId>com.huawei.storage</groupId>
-                <artifactId>esdk-obs-java</artifactId>
-                <version>${huawei.version}</version>
-            </dependency>
-            <!-- UPYUN(USS) -->
-            <dependency>
-                <groupId>com.upyun</groupId>
-                <artifactId>java-sdk</artifactId>
-                <version>${upyun.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
