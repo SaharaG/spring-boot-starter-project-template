@@ -1,0 +1,12 @@
+language: java
+sudo: false
+
+jdk:
+  - openjdk10
+  - openjdk9
+  - openjdk8
+
+script: "mvn clean package"
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
