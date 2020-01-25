@@ -22,8 +22,8 @@
     <parent>
         <artifactId>template-spring-boot-parent</artifactId>
         <groupId>com.github.sahara</groupId>
-        <version>1.0.0-SNAPSHOT</version>
-        <relativePath>../template-spring-boot-parent/pom.xml</relativePath>
+        <version>${revision}</version>
+        <relativePath>../template-spring-boot-parent</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 

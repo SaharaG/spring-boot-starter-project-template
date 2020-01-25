@@ -24,7 +24,7 @@
     <groupId>com.github.sahara</groupId>
     <artifactId>template-spring-boot-project</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>${revision}</version>
 
     <name>Spring Boot Project</name>
     <description>Spring Boot Project</description>
@@ -40,6 +40,7 @@
     </modules>
 
     <properties>
+        <revision>1.0.0-SNAPSHOT</revision>
         <main.dir>${basedir}</main.dir>
     </properties>
 
